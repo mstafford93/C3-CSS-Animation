@@ -1,0 +1,205 @@
+body {
+    background-color: grey;
+}
+
+/*Nav styles*/
+nav {
+    font-size: 16px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px;
+    /*padding 1st value top, bottom, second value left, right*/
+    box-shadow: 0 2px 10px rgba(56, 56, 56, 0.52);
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    background-color: gray;
+    box-shadow: none;
+    position: relative;
+}
+
+nav h2 {
+    float: left;
+    margin: 0.5rem;
+    color: aquamarine;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav a:link {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px black solid;
+    height:100%;
+}
+
+nav a {
+    font-family: sans-serif;
+    color: aquamarine;
+    transition: color 0.3s, bottom-border 0.3s;
+    padding-bottom: 5px;
+    position: relative;
+    border-bottom: 2px transparent solid;
+}
+
+nav a:hover {
+    color: rgb(4, 146, 146);
+}
+
+nav li {
+    padding: 0;
+    margin: 0;
+    margin-right: 20px;
+    padding: 0px 30px;
+    height:100%;
+}
+
+nav .nav-social {
+    display: flex;
+}
+
+nav p {
+    margin-right: 0.5rem;
+    font-size: 1.25rem;
+}
+
+
+section img {
+    height:200px;
+    max-width:400px;
+}
+
+section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vh;
+    width: 100vw;
+}
+
+section aside {
+    width: 50%;
+}
+
+
+.section-2 {
+    background-color: black;
+    color: grey;
+}
+
+/*Challange 3*/
+
+
+
+.current-page {
+    background-color: rgb(31, 5, 124);
+    padding: 1rem;
+    color: white;
+}
+
+
+.hero {
+    display: block;
+    margin-top: 3rem;
+    margin-left: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+    width: fit-content;
+}
+
+.hero h1 {
+    font-size: 50px;
+}
+
+.hero h3 {
+    font-size: 24px;
+}
+
+.sponsers {
+    display: block;
+    height: 70vh;
+}
+
+.sponsers h2, .sponsers h5, .sponser-squares {
+    justify-self: center;
+}
+
+.sponser-squares {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sponser-box {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    align-content: center;
+    background-color: white;
+    margin: 2rem;
+}
+
+/*Footer styles*/
+footer{
+    display: flex;
+    background-color: rgb(67, 66, 68);
+    padding: 15px;
+    color: rgb(182, 213, 243);
+    text-align: center;
+    line-height: 1.6;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.email-me input, .email-me button, .email-me textarea {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-logo {
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: aqua;
+    color: blue;
+    font-size: 10px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+footer .contact-logo {
+    display: flex;
+}
+
+.footer-socials i{
+    padding: 0.75rem;
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 50%;
+    margin: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
