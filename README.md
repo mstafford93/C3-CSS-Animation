@@ -1,5 +1,5 @@
 C3-CSS-Animation
-Challange 2 of 13 in my coding journey. Following the template provided in the repository.
+Challange 3 of 13 in my coding journey. Following the template provided in the repository.
 
 Dependencies:
   - HTML 5
