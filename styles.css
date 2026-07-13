@@ -130,6 +130,12 @@ section aside {
     font-size: 24px;
 }
 
+section button:hover {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+}
+
 .sponsers {
     display: block;
     height: 70vh;
@@ -184,6 +190,8 @@ footer button {
     border: 1px solid black;
     width: 10rem;
 }
+
+/*Simple hover states on buttons*/
 
 footer button:hover {
     background-color: black;
