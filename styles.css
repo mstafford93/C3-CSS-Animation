@@ -241,3 +241,10 @@ footer textarea {
     vertical-align: middle;
 }
 
+.copyright-footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(56, 56, 56);
+    color: lightgrey;
+    text-transform: uppercase;
+}
